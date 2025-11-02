@@ -46,4 +46,6 @@ Aquest executable inclou totes les dependències i amaga la consola.
 
 ## 📄 Llicència
 MIT License. Lliure per a ús educatiu i personal. Contribucions benvingudes!
-Autor: David González (dgonzalez.developer@gmail.com)
+
+## 🧑‍💻 Autor
+David González - [GitHub](https://github.com/dgonzalez55)
