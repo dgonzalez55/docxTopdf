@@ -1,0 +1,11 @@
+__pycache__/
+.old/
+.ruff_cache/
+.venv/
+.vscode/
+build/
+dist/
+env/
+src/__pycache__/
+src/docx_to_pdf_zip.egg-info/
+*.spec

@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "docx-to-pdf-zip"
+version = "1.0.0"
+description = "Aplicació GUI per convertir fitxers DOCX a PDF i empaquetar en ZIP"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "David González Roldán", email = "dgonzalez.developer@gmail.com"}
+]
+dependencies = [
+    "docx2pdf",
+    "pyzipper",
+    "psutil",
+]
+
+[project.scripts]
+docx-to-pdf-zip = "docx_to_pdf_zip_app:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
