@@ -1,11 +1,11 @@
 # Convertidor DOCX a PDF amb ZIP Protegit
 
-Aplicació amb interfície gràfica (GUI) per convertir múltiples fitxers DOCX a PDF i empaquetar-los en un fitxer ZIP protegit amb contrasenya. Suporta conversió paral·lela (fins a 16 fils), reintents agressius i informes detallats. Optimitzada per Windows.
+Aplicació amb interfície gràfica per convertir múltiples fitxers DOCX a PDF i empaquetar-los en un fitxer ZIP protegit amb contrasenya. Suporta conversió paral·lela (fins a 16 fils), reintents agressius i informes detallats. Dissenyada per a Windows.
 
 ## ✨ Característiques
 
 - Conversió paral·lela configurable (1-16 fils)
-- Reintents automàtics amb mètode alternatiu (win32com si disponible)
+- Reintents automàtics amb mètode alternatiu
 - Creació de ZIP amb contrasenya AES
 - Informe final amb estadístiques de conversions, reintents i errors
 - Interfície gràfica intuïtiva amb Tkinter
@@ -38,10 +38,11 @@ Aplicació amb interfície gràfica (GUI) per convertir múltiples fitxers DOCX 
 4. Tria destí del ZIP.
 5. Inicia la conversió i espera l'informe final.
 
-## 🛠️ Construcció
+## 🛠️ Construcció d'executable
 
 ### Executable independent (Windows)
-Executa `build_pyinstaller.cmd` per crear `dist\docx-to-pdf-zip.exe`. Mostra consola per errors; per GUI sense consola, investiga alternatives per subprocessos.
+Executa `build_pyinstaller.cmd` per crear `dist\docx-to-pdf-zip.exe`.
+Aquest executable inclou totes les dependències i amaga la consola.
 
 ## 📄 Llicència
 MIT License. Lliure per a ús educatiu i personal. Contribucions benvingudes!
